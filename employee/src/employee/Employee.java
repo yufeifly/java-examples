@@ -1,4 +1,4 @@
-import java.io.*;
+package employee;
 
 public class Employee{
     String name;
@@ -14,8 +14,8 @@ public class Employee{
         age =  empAge;
     }
     /* 设置designation的值*/
-    public void empDesignation(String empDesig){
-        designation = empDesig;
+    public void empDesignation(String empDesign){
+        designation = empDesign;
     }
     /* 设置salary的值*/
     public void empSalary(double empSalary){
